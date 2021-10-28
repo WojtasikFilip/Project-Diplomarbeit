@@ -1,6 +1,6 @@
 <template>
   <div id="project">
-      <h1 class="text-center mt-10 font-weight-medium">Informationen über das Projekt</h1>
+      <h1 class="text-center mt-16 font-weight-medium">Informationen über das Projekt</h1>
     <v-container>
       <h2 class="mt-5 font-weight-medium">Die Ausgangslage</h2>
       <v-divider width="17%"> </v-divider>

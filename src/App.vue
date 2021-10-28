@@ -2,22 +2,26 @@
   <v-app>
     <AppBar />
     <v-main>
+      <Pictures />
       <Infos />
       <Team />
-      <downloads />
+      <Downloads />
       <Kontakt />
+      <Plakat />
     </v-main>
-    <bottomBar />
+    <BottomBar />
   </v-app>
 </template>
 
 <script>
-import AppBar from '@/components/dOD.vue';
+import AppBar from '@/components/topBar.vue';
 import Infos from '@/components/Infos.vue';
 import Team from '@/components/Team.vue';
 import Kontakt from '@/components/Kontakt.vue';
-import bottomBar from '@/components/bottomBar.vue';
-import downloads from '@/components/downloads.vue';
+import BottomBar from '@/components/bottomBar.vue';
+import Downloads from '@/components/downloads.vue';
+import Pictures from '@/components/pictures.vue';
+import Plakat from '@/components/plakat.vue';
 
 export default {
   name: 'App',
@@ -26,8 +30,10 @@ export default {
     Infos,
     Team,
     Kontakt,
-    bottomBar,
-    downloads,
+    BottomBar,
+    Downloads,
+    Pictures,
+    Plakat,
   },
 
   data: () => ({

@@ -1,6 +1,6 @@
 <template>
-  <div class="d-flex">
-    <v-app-bar color="white" fixed height="100">
+  <div class="d-flex mb-10">
+    <v-app-bar color="white" fixed height="70">
       <v-img src="../../public/logo.jpeg" max-width="90" max-height="80"></v-img>
 
       <v-toolbar-title class="ml-10"
@@ -8,10 +8,10 @@
       >
       <v-spacer></v-spacer>
       <div class="hidden-md-and-down">
-        <v-btn icon href="#project" class="mr-10">Project</v-btn>
+        <v-btn icon href="#project" class="mr-10">Projekt</v-btn>
         <v-btn icon href="#team" class="mr-13">Team</v-btn>
         <v-btn icon href="#downloads" class="mr-14">Downloads</v-btn>
-        <v-btn icon href="#contact" class="mr-14">Contact</v-btn>
+        <v-btn icon href="#contact" class="mr-14">Kontakt</v-btn>
       </div>
 
       <v-btn icon href="https://www.htlwienwest.at/ueberuns/impressum.html" target="_blank" link class="mr-10"
@@ -23,7 +23,7 @@
         class=" hidden-md-and-up"
       ></v-app-bar-nav-icon>
     </v-app-bar>
-    <v-navigation-drawer v-model="drawer" hide-overlay disable-resize-watcher statless app right >
+    <v-navigation-drawer v-model="drawer" hide-overlay disable-resize-watcher statless app right>
       <v-icon text @click="drawer = false" class="ma-4">mdi-close</v-icon>
       <v-list nav dense>
         <v-list-item-group v-model="group" active-class="deep-grey--text text--accent-4">

@@ -3,10 +3,7 @@
     <h1 class="mt-10 text-center font-weight-medium">Das Team</h1>
     <v-container class="d-flex justify-center flex-wrap ">
       <v-card class="mx-auto my-12" max-width="374">
-        <v-img
-          height="250"
-          src="https://www.praxis-dr-otto.de/wp-content/uploads/2016/05/logo-platzhalter.jpg"
-        ></v-img>
+        <v-img height="450" src="../../public/TeamBilder/Minchen.jpeg"></v-img>
 
         <v-card-title class="mx-auto">Mina Mansour</v-card-title>
 
@@ -23,10 +20,7 @@
         </v-card-text>
       </v-card>
       <v-card class="mx-auto my-12" max-width="374">
-        <v-img
-          height="250"
-          src="https://www.praxis-dr-otto.de/wp-content/uploads/2016/05/logo-platzhalter.jpg"
-        ></v-img>
+        <v-img height="450" src="../../public/TeamBilder/Felipe.jpeg"></v-img>
 
         <v-card-title class="mx-auto">Filip Wojtasik</v-card-title>
 
@@ -45,10 +39,7 @@
         </v-card-text>
       </v-card>
       <v-card class="mx-auto my-12" max-width="374">
-        <v-img
-          height="250"
-          src="https://www.praxis-dr-otto.de/wp-content/uploads/2016/05/logo-platzhalter.jpg"
-        ></v-img>
+        <v-img height="450" src="../../public/TeamBilder/Adi.jpeg"></v-img>
 
         <v-card-title class="mx-auto">Adrian Mysliwiec</v-card-title>
 
@@ -61,7 +52,7 @@
           <p></p>
           <div><v-icon>mdi-menu-right</v-icon> User Stories & Trelloverwaltung.</div>
           <p></p>
-          <div><v-icon>mdi-menu-right</v-icon> Plakat gestaltung / Design.</div>
+          <div><v-icon>mdi-menu-right</v-icon> Plakat Gestaltung / Design.</div>
         </v-card-text>
       </v-card>
     </v-container>
