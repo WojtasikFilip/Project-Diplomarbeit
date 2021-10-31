@@ -16,7 +16,7 @@ export default {};
 
 <style lang="scss" scoped>
 .responsive {
-  width: auto;
+  width: 50;
   height: auto;
 }
 </style>

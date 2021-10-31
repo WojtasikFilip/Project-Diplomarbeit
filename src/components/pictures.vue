@@ -32,10 +32,10 @@ export default {
           src: 'https://www.htlwienwest.at/img/service/karrieretag2020/KT2020-5.jpg',
         },
         {
-          src: 'https://www.physio-center.at/wp-content/uploads/2016/10/orionthemes-placeholder-image.png',
+          src: 'Bild5.jpeg',
         },
         {
-          src: 'https://www.physio-center.at/wp-content/uploads/2016/10/orionthemes-placeholder-image.png',
+          src: 'Bild6.jpeg',
         },
       ],
     };
