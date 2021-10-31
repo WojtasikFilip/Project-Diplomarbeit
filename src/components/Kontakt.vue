@@ -7,23 +7,10 @@
       <form>
         <v-row>
           <v-col cols="12" md="6">
-            <v-text-field
-              v-model="name"
-              label="Name"
-              required
-              @input="$v.email.$touch()"
-              @blur="$v.email.$touch()"
-            ></v-text-field>
+            <v-text-field v-model="name" label="Name" required></v-text-field>
           </v-col>
           <v-col cols="12" md="6">
-            <v-text-field
-              v-model="email"
-              label="E-mail"
-              style="border-radius:12px;"
-              required
-              @input="$v.email.$touch()"
-              @blur="$v.email.$touch()"
-            ></v-text-field>
+            <v-text-field v-model="email" label="E-mail" required></v-text-field>
           </v-col>
         </v-row>
 
@@ -35,7 +22,7 @@
       <div class="mt-10">
         <span
           ><b>Zu unserer Projekt Website: </b>
-          <a href="http://htlwienwest.at">karrieretag.htlwienwest.at</a></span
+          <a href="http://karrieretag.htlwienwest.at">karrieretag.htlwienwest.at</a></span
         >
       </div>
     </v-container>

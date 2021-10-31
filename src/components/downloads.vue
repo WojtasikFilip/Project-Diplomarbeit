@@ -3,12 +3,12 @@
     <v-container>
       <h1 class="font-weight-medium">Downloads</h1>
       <v-divider class="mb-10"></v-divider>
-      <v-container class="d-flex flex-wrap">
+      <v-container class="d-flex flex-wrap " justify-center>
         <v-row>
           <v-col cols="12" md="6">
             <v-btn
               color="red darken-2"
-              class="ma-2 white--text"
+              class=" white--text"
               x-large
               style="width:100%"
               href="Handbuch.pdf"
@@ -23,7 +23,7 @@
           <v-col cols="12" md="6">
             <v-btn
               color="red darken-2"
-              class="ma-2 white--text"
+              class=" white--text"
               x-large
               style="width:100%"
               href="Antrag.pdf"

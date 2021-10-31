@@ -1,10 +1,10 @@
 <template>
   <div class="d-flex mb-10">
     <v-app-bar color="white" fixed height="70">
-      <v-img src="../../public/logo.jpeg" max-width="90" max-height="80"></v-img>
+      <v-img src="https://upload.wikimedia.org/wikipedia/de/thumb/1/1c/HTL_Wien_West_Logo.png/1200px-HTL_Wien_West_Logo.png" max-width="90" max-height="80"></v-img>
 
       <v-toolbar-title class="ml-10"
-        ><h2 class="display-1 font-weight-light">Karrieretag</h2></v-toolbar-title
+        ><h2 class="display-1 font-weight-light hidden-sm-and-down">Karrieretag</h2></v-toolbar-title
       >
       <v-spacer></v-spacer>
       <div class="hidden-md-and-down">

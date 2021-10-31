@@ -1,7 +1,7 @@
 <template>
   <div id="team">
     <h1 class="mt-10 text-center font-weight-medium">Das Team</h1>
-    <v-container class="d-flex justify-center flex-wrap ">
+    <v-container class="d-flex  flex-wrap " justify-center>
       <v-card class="mx-auto my-12" max-width="374">
         <v-img height="450" src="../../public/TeamBilder/Minchen.jpeg"></v-img>
 
@@ -12,11 +12,20 @@
 
         <v-card-text>
           <div class="my-4 text-subtitle-1"></div>
-          <div><v-icon>mdi-menu-right</v-icon> Erstellen und Verwalten der Karrieretag Website.</div>
+          <div>
+            <v-icon>mdi-menu-right</v-icon> Erstellen und Verwalten der
+            Karrieretag Website.
+          </div>
           <p></p>
-          <div><v-icon>mdi-menu-right</v-icon> Entwicklung der Software für die Website.</div>
+          <div>
+            <v-icon>mdi-menu-right</v-icon> Entwicklung der Software für die
+            Website.
+          </div>
           <p></p>
-          <div><v-icon>mdi-menu-right</v-icon> Ein Feedback des Karrieretages für den Leiter.</div>
+          <div>
+            <v-icon>mdi-menu-right</v-icon> Ein Feedback des Karrieretages für
+            den Leiter.
+          </div>
         </v-card-text>
       </v-card>
       <v-card class="mx-auto my-12" max-width="374">
@@ -31,11 +40,16 @@
           <div class="my-4 text-subtitle-1"></div>
           <div><v-icon>mdi-menu-right</v-icon> Karrieretag Infosystem.</div>
           <p></p>
-          <div><v-icon>mdi-menu-right</v-icon> Verwaltung der Festsaal Vorträge.</div>
+          <div>
+            <v-icon>mdi-menu-right</v-icon> Verwaltung der Festsaal Vorträge.
+          </div>
           <p></p>
           <div><v-icon>mdi-menu-right</v-icon> Projektwebseite.</div>
           <p></p>
-          <div><v-icon>mdi-menu-right</v-icon> Datenbankdesign und -implementierung.</div>
+          <div>
+            <v-icon>mdi-menu-right</v-icon> Datenbankdesign und
+            -implementierung.
+          </div>
         </v-card-text>
       </v-card>
       <v-card class="mx-auto my-12" max-width="374">
@@ -48,9 +62,13 @@
 
         <v-card-text>
           <div class="my-4 text-subtitle-1"></div>
-          <div><v-icon>mdi-menu-right</v-icon> Smartphone App für den Karrieretag.</div>
+          <div>
+            <v-icon>mdi-menu-right</v-icon> Smartphone App für den Karrieretag.
+          </div>
           <p></p>
-          <div><v-icon>mdi-menu-right</v-icon> User Stories & Trelloverwaltung.</div>
+          <div>
+            <v-icon>mdi-menu-right</v-icon> User Stories & Trelloverwaltung.
+          </div>
           <p></p>
           <div><v-icon>mdi-menu-right</v-icon> Plakat Gestaltung / Design.</div>
         </v-card-text>
